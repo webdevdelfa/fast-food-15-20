@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {}
+
+.hero {}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {}
+
+.logo__pic {}
+
+.nav {}
+
+.nav__list {}
+
+.nav__item {}
+
+.nav__link {}
+
+.btn {}
+
+.hero__content {}
+
+.hero__info {}
+
+.hero__headline {}
+
+.title {}
+
+.hero__desc {}
