@@ -7,6 +7,10 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
     min-height: 100%;
 }
@@ -33,24 +37,48 @@ h6 {
     margin: 0;
 }
 
-.container {}
+img {
+    max-width: 100%;
+}
 
-.hero {}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/content/hero-bg.jpg) no-repeat center/cover;
+    height: 100vh;
+}
 
 .header {
     display: flex;
     align-items: center;
+    padding: 25px 0px;
+    justify-content: space-between;
 }
 
-.logo {}
+.logo {
+    width: 52px;
+    height: 42px;
+    display: block;
+}
 
 .logo__pic {}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+}
 
-.nav__item {}
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
 
 .nav__link {}
 
